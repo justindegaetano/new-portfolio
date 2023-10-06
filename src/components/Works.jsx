@@ -17,7 +17,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[440px] lg:w-[360px] w-full'
       >
         <div className="relative w-full h-[230px]">
           <img 
@@ -79,11 +79,11 @@ const Works = () => {
           variants={fadeIn('up', 0.1, 1)} 
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Each project tells a unique story, highlighting my adaptability across various technologies and my commitment to delivering solutions that make a meaningful impact. As you explore this section, you'll gain insight into my journey as a developer, witnessing how I've translated complex ideas into user-friendly applications, websites, and interactive experiences. Whether you're interested in web development, design, or emerging technologies, my portfolio invites you to delve into a world of possibilities and discover the potential synergy between your project needs and my expertise.
+          As you explore this section, you'll gain insight into my journey as a developer, witnessing how I've translated complex ideas into user-friendly applications, websites, and interactive experiences. Whether you're interested in web development, design, or emerging technologies, my portfolio invites you to delve into a world of possibilities and discover the potential synergy between your project needs and my expertise.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7 xs:mx-16 sm:mx-auto md:mx-10 lg:mx-40 xl:mx-auto">
+      <div className="mt-20 flex flex-wrap justify-around gap-7 mx-6 xs:mx-10 sm:mx-4 md:mx-2 lg:mx-16 xl:mx-auto">
         {projects.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}

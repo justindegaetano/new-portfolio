@@ -46,7 +46,7 @@ const About = () => {
       >
         As a passionate and driven developer, I have an insatiable appetite for learning and exploring new technologies. With a strong foundation in both front-end and back-end development, I strive to create dynamic and user-centric solutions to tackle complex challenges.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10 xs:mx-16 sm:mx-auto md:mx-10 lg:mx-40 xl:mx-auto'>
+      <div className='mt-20 flex flex-wrap gap-4 sm:gap-10 mx-9 sm:mx-auto md:mx-10 lg:mx-40 xl:mx-auto'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
