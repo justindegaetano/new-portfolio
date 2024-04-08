@@ -124,7 +124,7 @@ import {
     {
       name: "T-Shirt Designer",
       description:
-        "Full-stack AI-powered 3D web application allowing users to upload their own graphic design or customize one for scratch using OpenAI's DALL-E.",
+        "Full-stack AI-powered 3D web application allowing users to upload their own graphic design or customize one from scratch using OpenAI's DALL-E.",
       tags: [
         {
           name: "react",
