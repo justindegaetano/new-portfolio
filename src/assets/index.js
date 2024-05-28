@@ -34,6 +34,8 @@ import tesla from "./company/tesla.png";
 import dalle from "./dalle-clone.png";
 import metaversus from "./metaversus.png";
 import shirt from "./shirt-designer.png";
+import car from "./car-hub.png";
+import moneymaven from "./money-maven.png";
 
 export {
   logo,
@@ -69,4 +71,6 @@ export {
   dalle,
   metaversus,
   shirt,
+  car,
+  moneymaven,
 };

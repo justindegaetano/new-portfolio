@@ -19,6 +19,8 @@ import {
     dalle,
     shirt,
     metaversus,
+    car,
+    moneymaven,
   } from "../assets";
   
   export const navLinks = [
@@ -122,9 +124,61 @@ import {
   
   const projects = [
     {
+      name: "MoneyMaven",
+      description:
+        "Full-stack financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances.",
+      tags: [
+        {
+          name: "next.js14",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "plaid",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: moneymaven,
+      source_code_link: "https://github.com/justindegaetano/banking-manager",
+      hosted_app_link: "https://money-maven.vercel.app/",
+    },
+    {
+      name: "Car Showcase",
+      description:
+        "Built with Next.js for server-side rendering, the Car Showcase app displays various car types with detailed information in a sleek design, featuring advanced filtering and pagination for a convenient user experience.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "rapid-api",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: car,
+      source_code_link: "https://github.com/justindegaetano/next13-car-showcase",
+      hosted_app_link: "https://justin-car-showcase.vercel.app/",
+    },
+    {
       name: "T-Shirt Designer",
       description:
-        "Full-stack AI-powered 3D web application allowing users to upload their own graphic design or customize one from scratch using OpenAI's DALL-E.",
+        "Full-stack AI-powered 3D web application allowing users to create a T-shirt by uploading their own graphic designs or customizing one with scratch by using OpenAI's DALL-E image generation.",
       tags: [
         {
           name: "react",
@@ -150,7 +204,7 @@ import {
     {
       name: "DALL-E Clone",
       description:
-        "Full-Stack AI-powered web application allowing users to generate images using OpenAI's DALL-E, and share them with the community.",
+        "Full-Stack AI-powered web application allowing users to generate incredible images using OpenAI's DALL-E, contribute them in a post to a community showcase, and search for other contributions.",
       tags: [
         {
           name: "react",
@@ -176,7 +230,7 @@ import {
     {
       name: "Metaversus",
       description:
-        "Front-end SPA mini-project used to familiarize and enhance my personal understanding of NextJS 13 and Framer Motion.",
+        "Front-end SPA mini-project (a static site offering only visual user interactions) used to familiarize myself and enhance my personal understanding of NextJS 13 and Framer Motion. ",
       tags: [
         {
           name: "nextjs",
