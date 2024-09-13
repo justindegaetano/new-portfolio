@@ -47,12 +47,14 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
+    // Color: #09A7CC; 400 pt Poppins font
     {
       title: "Projects Completed",
       icon: totalprojects,
     },
+    // Color: #09A7CC; 350 pt Poppins font
     {
-      title: "Year of Experience",
+      title: "Years of Experience",
       icon: yearsofexperience,
     },
   ];
