@@ -36,6 +36,7 @@ import metaversus from "./metaversus.png";
 import shirt from "./shirt-designer.png";
 import car from "./car-hub.png";
 import moneymaven from "./money-maven.png";
+import ptpetsupply from "./ptpetsupply.jpg";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   shirt,
   car,
   moneymaven,
+  ptpetsupply,
 };

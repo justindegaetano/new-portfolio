@@ -21,6 +21,7 @@ import {
     metaversus,
     car,
     moneymaven,
+    ptpetsupply,
   } from "../assets";
   
   export const navLinks = [
@@ -125,6 +126,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "PT Pet Supply",
+      description:
+        "Static site developed with Astro for the small business PT Pet Supply. A modern, fast, and accessible pet supply store website built with Astro and React, featuring a smooth user experience, interactive UI components, and optimized performance.",
+      tags: [
+        {
+          name: "astro",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: ptpetsupply,
+      source_code_link: "https://github.com/yolandaptpet/pt-pet-supply",
+      hosted_app_link: "https://ptpet.net",
+    },
     {
       name: "MoneyMaven",
       description:
