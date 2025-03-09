@@ -129,7 +129,7 @@ import {
     {
       name: "PT Pet Supply",
       description:
-        "Static site developed with Astro for the small business PT Pet Supply. A modern, fast, and accessible pet supply store website built with Astro and React, featuring a smooth user experience, interactive UI components, and optimized performance.",
+        "Static site for PT Pet Supply, built with Astro and React. A fast, modern, and accessible pet supply store website with a smooth UX, interactive UI components, and optimized performance.",
       tags: [
         {
           name: "astro",
